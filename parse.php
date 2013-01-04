@@ -1,7 +1,7 @@
 <?php
 
 // http://www.jstott.me.uk/phpcoord/ (GPL)
-require 'lib/phpcoord.php';
+require 'phpcoord.php';
 
 $input = 'data/Listed_Buidings_gml/listed_buildings.gml';
 $output = fopen('data/output.tsv', 'w');
